@@ -1,0 +1,52 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0px;
+padding: 0px;
+background-color:#cEEFF2;
+}
+header,footer{
+    background-color: #04545d;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 1px;
+   
+}
+.navitem{
+    display:inline;
+    padding:20px;
+}
+.navitem a {
+    text-decoration: none;
+    color: thistle;
+   
+}
+
+.Register{
+    width: max-content;
+    background-color: rgb(3, 97, 97);
+    margin-left: auto;
+    margin-right: auto;
+}
+.emptable{
+    text-align: center;
+}
+table{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+   border-collapse: collapse;
+}
+th,td{
+    border:1px solid rgb(3, 97, 97);
+    padding: 5px;
+}
+
+.Contact{
+    text-align: center;
+   
+}
+
+
+
+
+

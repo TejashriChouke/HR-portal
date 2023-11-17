@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/244/323/png-transparent-computer-icons-employee-self-service-business-advertising-human-resources-employee-human-resource-management-service-people-thumbnail.png">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HR Portal</h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href = #employee-resitration>Employee-Resitration</a></li>
+            <li class="navitem"><a href = #employee-directory>Employee-Directory</a></li>
+            <li class="navitem"><a href = #contact-us>Contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <image src="https://img.freepik.com/free-vector/new-employees-requiring-office-work-isolated-flat-vector-illustration-cartoon-hr-manager-hiring-recruiting-personnel-recruitment-vacancy-business-concept_74855-10118.jpg?w=2000"
+    style=width:100%;height:300px;
+     >
+    </image>
+
+    <section id="employee-resitration" class="Register">
+        <h2>Employee Resitration</h2>
+        <p>Fill the below form to Register as <em>Employee</em></p>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" placeholder="Teju"><br><br>
+            <label for="email">email:</label>
+            <input type="text" id="email" placeholder="Teju@gmail.com"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" ><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="24"><br><br>
+            <label for="role">Select Role</label>
+            <select>
+                <option>Software Engineer</option>
+                <option>Data Analyst</option>
+                <option>Hr Representative</option>
+                <option>Project Manager</option>
+            </select><br><br>
+            <label for="joining date">Joining Date:</label>
+            <input type="date" id="joining date"><br><br>
+            <input type="Submit">
+    
+    </section>
+
+    <section id="employee-directory" class="emptable">
+        <h2>Employee Directory</h2>
+        <p>View Employee Details Here</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Role</th>
+            </tr> 
+            
+            <tr>
+                <td>001</td>
+                <td>Teju</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Adi</td>
+                <td>Software Engineer </td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Prachi</td>
+                <td>Accountant </td>
+            </tr>
+            
+        </table>
+ </section>
+
+ <section id="contact-us" class="Contact">
+    <h2>Contact Us</h2>
+    <p>You can contact us at company@official.com or visit us between 9am- 6pm</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8041686171155!2d77.70148057489328!3d12.984373787332121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176568fa49e7%3A0xc14ffe9b3aa1a72f!2sMicrosoft%20Luxor%20North%20Tower!5e0!3m2!1sen!2sin!4v1700149203369!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section>
+    
+ <footer>
+    <p>&copy; Company Name</p>
+ </footer>
+</body>
+</html>
